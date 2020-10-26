@@ -22,9 +22,9 @@ program
 	.command('init <my-project>')
 	.alias('i')
 	.description('创建一个新的项目')
-	.action((name, cmd) => {
+	.action((projectName, cmd) => {
 		console.log(chalk.green(`详细文档请查阅：${docurl}`))
-		init(name, cmd)
+		init(projectName, cmd)
 	})
 
 program
