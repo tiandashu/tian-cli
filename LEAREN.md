@@ -26,3 +26,7 @@
 
 ### download-git-repo
 > 下载并提取 git 仓库，用于下载项目模板
+
+
+### cross-spawn
+> 安装远程依赖
